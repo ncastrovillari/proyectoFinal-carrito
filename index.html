@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hind&family=Josefin+Sans&family=Square+Peg&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <title>Tienda - Bodega Creación</title>
+  </head>
+  <body>
+    <header>
+      <h1 id="titulo" class="titulo">Tienda - Bodega Creación</h1>
+      <button id="boton-carrito">
+        <i class="fas fa-shopping-cart"></i><span id="contadorCarrito">0</span>
+      </button>
+    </header>
+
+    <main id="contenedor-productos"></main>
+
+    <div class="modal-contenedor">
+      <div class="modal-carrito">
+        <h3>Carrito</h3>
+        <button id="carritoCerrar"><i class="fas fa-times-circle"></i></button>
+        <div id="carrito-contenedor"></div>
+        <p class="precioProducto">
+          Precio total: $<span id="precioTotal">0</span>
+        </p>
+        <button id="vaciar-carrito" class="boton-agregar">
+          Vaciar carrito
+        </button>
+      </div>
+    </div>
+
+    <script defer src="/js/stock.js"></script>
+    <script defer src="/js/modal.js"></script>
+    <script defer src="/js/main.js"></script>
+    <script
+      src="https://kit.fontawesome.com/df59baf6b8.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
