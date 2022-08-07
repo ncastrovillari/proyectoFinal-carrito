@@ -45,7 +45,7 @@ const agregarAlCarrito = (prodId) => {
     if (existe) {
         const prod = carrito.map(prod => {
             if (prod.id === prodId) {
-                prod.cantidad++
+                prod.cantidad += 1
             }
         })
     } else {
