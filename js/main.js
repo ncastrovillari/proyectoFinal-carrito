@@ -7,6 +7,16 @@ const cantidad = document.getElementById('cantidad')
 const precioTotal = document.getElementById('precioTotal')
 const cantidadTotal = document.getElementById('cantidadTotal')
 
+const obtenerProductos = () => {
+    fetch("data/data.json")
+        .then((respuesta) => {
+            return respuesta.json()
+        })
+        .then += (lista => {
+            console.log(lista)
+            
+        })}
+
 let carrito = []
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -107,4 +117,6 @@ const actualizarCarrito = () => {
     precioTotal.innerText = carrito.reduce((acc, prod) => acc + prod.cantidad * prod.precio, 0)
 
 }
+
+
 

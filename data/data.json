@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "nombre": "Box Malbec y Cabernet Sauvignon",
+        "cantidad": 1,
+        "precio": 3600
+    },
+    {
+        "id": 2,
+        "nombre": "Estuche Reserva Cabernet Sauvignon",
+        "cantidad": 1,
+        "precio": 2000
+    },
+    {
+        "id": 3,
+        "nombre": "Estuche Reserva Malbec",
+        "cantidad": 1,
+        "precio": 2000
+    },
+    {
+        "id": 4,
+        "nombre": "Reserva Cabernet Sauvignon x 6",
+        "cantidad": 1,
+        "precio": 8900
+    },
+    {
+        "id": 5,
+        "nombre": "Reserva Malbec x 6",
+        "cantidad": 1,
+        "precio": 8900 
+    }
+]
