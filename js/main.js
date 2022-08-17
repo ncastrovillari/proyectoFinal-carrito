@@ -12,7 +12,7 @@ const obtenerProductos = () => {
         .then((respuesta) => {
             return respuesta.json()
         })
-        .then += (lista => {
+        .then(lista => {
             console.log(lista)
             
         })}
